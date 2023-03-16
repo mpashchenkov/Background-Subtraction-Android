@@ -1,0 +1,7 @@
+# ninja log v5
+635	664	1678826892623409293	/home/mpas/work/android/AndroidStudioProjects/bs2/app/build/intermediates/cxx/RelWithDebInfo/2l111725/obj/x86_64/libbackground_subtraction_sample.so	92a213c74a1c7e12
+0	21	1678827928770355310	build.ninja	1ac67b07d6833fc6
+0	635	1678826892587409733	CMakeFiles/background_subtraction_sample.dir/native-lib.cpp.o	6faef18be4ca3b48
+0	18	0	clean	8d88150d8b23e221
+5	642	1678827939658736250	CMakeFiles/background_subtraction_sample.dir/native-lib.cpp.o	6faef18be4ca3b48
+642	742	1678827939762739852	/home/mpas/work/android/AndroidStudioProjects/bs2/app/build/intermediates/cxx/RelWithDebInfo/2l111725/obj/x86_64/libbackground_subtraction_sample.so	92a213c74a1c7e12

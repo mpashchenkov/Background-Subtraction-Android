@@ -1,0 +1,7 @@
+# ninja log v5
+0	20	1678829610135607870	build.ninja	2c680d44e12c74f4
+3	1787	1678829522895493411	CMakeFiles/background_subtraction_sample.dir/native-lib.cpp.o	e6cfcf91cfe7003d
+0	1	0	clean	8d88150d8b23e221
+0	2	0	clean	8d88150d8b23e221
+0	1	0	clean	8d88150d8b23e221
+1	1572	1678829667423672069	CMakeFiles/background_subtraction_sample.dir/native-lib.cpp.o	e6cfcf91cfe7003d

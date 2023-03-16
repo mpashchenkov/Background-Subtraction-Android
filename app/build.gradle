@@ -1,0 +1,67 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    signingConfigs {
+        release {
+        }
+    }
+    namespace 'com.example.bs_sample'
+    compileSdk 33
+
+    ndkPath "/home/mpas/work/android/android-ndk-r21e"
+    ndkVersion "21.4.7075529"
+
+    defaultConfig {
+        applicationId "com.example.bs_sample"
+        minSdk 23
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        externalNativeBuild {
+            cmake {
+                cppFlags '-std=c++17'
+                arguments '-DANDROID_STL=c++_shared'
+                arguments  '-DOpenCV_DIR=/home/mpas/work/opencv/av8build'
+                arguments  '-DTENSORFLOW_SRC_DIR=/home/mpas/work/tensorflow'
+                arguments  '-DTFLITE_BUILD_DIR=/home/mpas/work/tensorflow/bazel-bin/tensorflow/lite'
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            ndk {
+                abiFilters "arm64-v8a"// "x86_64"
+            }
+        }
+        externalNativeBuild {
+            cmake {
+                path file('src/main/cpp/CMakeLists.txt')
+                version '3.22.1'
+            }
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.8.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation project(path: ':ocv')
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+}

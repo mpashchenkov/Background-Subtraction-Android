@@ -1,0 +1,3 @@
+/home/mpas/work/android/AndroidStudioProjects/bs2/app/.cxx/RelWithDebInfo/2l111725/x86_64/CMakeFiles/background_subtraction_sample.dir
+/home/mpas/work/android/AndroidStudioProjects/bs2/app/.cxx/RelWithDebInfo/2l111725/x86_64/CMakeFiles/edit_cache.dir
+/home/mpas/work/android/AndroidStudioProjects/bs2/app/.cxx/RelWithDebInfo/2l111725/x86_64/CMakeFiles/rebuild_cache.dir

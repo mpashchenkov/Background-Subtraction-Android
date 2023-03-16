@@ -1,0 +1,20 @@
+# ninja log v5
+1	1832	1678895759186031424	CMakeFiles/background_subtraction_sample.dir/native-lib.cpp.o	22c184373a1df6a3
+0	2	0	clean	8d88150d8b23e221
+1832	1891	1678895759258031287	/home/mpas/work/android/AndroidStudioProjects/bs2/app/build/intermediates/cxx/Debug/3dcv166j/obj/arm64-v8a/libbackground_subtraction_sample.so	f93ad63b75c1d136
+2	1842	1678897083083746572	CMakeFiles/background_subtraction_sample.dir/native-lib.cpp.o	22c184373a1df6a3
+1842	1909	1678897083171746186	/home/mpas/work/android/AndroidStudioProjects/bs2/app/build/intermediates/cxx/Debug/3dcv166j/obj/arm64-v8a/libbackground_subtraction_sample.so	e1d6fa1dc53672c5
+9	1894	1678897390762626224	CMakeFiles/background_subtraction_sample.dir/native-lib.cpp.o	22c184373a1df6a3
+1894	1957	1678897390842625982	/home/mpas/work/android/AndroidStudioProjects/bs2/app/build/intermediates/cxx/Debug/3dcv166j/obj/arm64-v8a/libbackground_subtraction_sample.so	e1d6fa1dc53672c5
+1	1874	1678897441138477566	CMakeFiles/background_subtraction_sample.dir/native-lib.cpp.o	22c184373a1df6a3
+1875	1940	1678897441218477337	/home/mpas/work/android/AndroidStudioProjects/bs2/app/build/intermediates/cxx/Debug/3dcv166j/obj/arm64-v8a/libbackground_subtraction_sample.so	e1d6fa1dc53672c5
+1	1877	1678897576102113893	CMakeFiles/background_subtraction_sample.dir/native-lib.cpp.o	22c184373a1df6a3
+1877	1941	1678897576182113691	/home/mpas/work/android/AndroidStudioProjects/bs2/app/build/intermediates/cxx/Debug/3dcv166j/obj/arm64-v8a/libbackground_subtraction_sample.so	e1d6fa1dc53672c5
+0	1866	1678897651473929332	CMakeFiles/background_subtraction_sample.dir/native-lib.cpp.o	22c184373a1df6a3
+1866	1930	1678897651553929142	/home/mpas/work/android/AndroidStudioProjects/bs2/app/build/intermediates/cxx/Debug/3dcv166j/obj/arm64-v8a/libbackground_subtraction_sample.so	e1d6fa1dc53672c5
+1	1836	1678897734165739438	CMakeFiles/background_subtraction_sample.dir/native-lib.cpp.o	22c184373a1df6a3
+1836	1902	1678897734245739259	/home/mpas/work/android/AndroidStudioProjects/bs2/app/build/intermediates/cxx/Debug/3dcv166j/obj/arm64-v8a/libbackground_subtraction_sample.so	e1d6fa1dc53672c5
+1	2489	1678898363772563825	CMakeFiles/background_subtraction_sample.dir/native-lib.cpp.o	22c184373a1df6a3
+2489	2560	1678898363860563681	/home/mpas/work/android/AndroidStudioProjects/bs2/app/build/intermediates/cxx/Debug/3dcv166j/obj/arm64-v8a/libbackground_subtraction_sample.so	e1d6fa1dc53672c5
+1	1872	1678898762311944542	CMakeFiles/background_subtraction_sample.dir/native-lib.cpp.o	22c184373a1df6a3
+1872	1937	1678898762391944422	/home/mpas/work/android/AndroidStudioProjects/bs2/app/build/intermediates/cxx/Debug/3dcv166j/obj/arm64-v8a/libbackground_subtraction_sample.so	e1d6fa1dc53672c5

@@ -1,0 +1,23 @@
+                        -H/home/mpas/work/android/AndroidStudioProjects/bs2/app/src/main/cpp
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=26
+-DANDROID_PLATFORM=android-26
+-DANDROID_ABI=armeabi-v7a
+-DCMAKE_ANDROID_ARCH_ABI=armeabi-v7a
+-DANDROID_NDK=/home/mpas/work/android/android-ndk-r21e
+-DCMAKE_ANDROID_NDK=/home/mpas/work/android/android-ndk-r21e
+-DCMAKE_TOOLCHAIN_FILE=/home/mpas/work/android/android-ndk-r21e/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/home/mpas/work/android/sdk/cmake/3.22.1/bin/ninja
+-DCMAKE_CXX_FLAGS=-std=c++17
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/mpas/work/android/AndroidStudioProjects/bs2/app/build/intermediates/cxx/RelWithDebInfo/4v1k273x/obj/armeabi-v7a
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/home/mpas/work/android/AndroidStudioProjects/bs2/app/build/intermediates/cxx/RelWithDebInfo/4v1k273x/obj/armeabi-v7a
+-DCMAKE_BUILD_TYPE=RelWithDebInfo
+-B/home/mpas/work/android/AndroidStudioProjects/bs2/app/.cxx/RelWithDebInfo/4v1k273x/armeabi-v7a
+-GNinja
+-DANDROID_STL=c++_shared
+-DOpenCV_DIR=/home/mpas/work/opencv/av8build
+-DTENSORFLOW_SRC_DIR=/home/mpas/work/tensorflow
+-DTFLITE_BUILD_DIR=/home/mpas/work/tensorflow/bazel-bin/tensorflow/lite
+                        Build command args: []
+                        Version: 2
